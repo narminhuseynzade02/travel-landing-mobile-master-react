@@ -5,7 +5,7 @@
   }
   
   .big-box {
-    background-image: url(./assets/Hero.jpg);
+    background-image: url(./Hero.jpg);
     .hero-section {
       padding-top: 94px;
       padding-bottom: 370px;
@@ -575,7 +575,7 @@
             letter-spacing: 0px;
             text-align: left;
             text-decoration: none;
-            color: #ffffff;
+            color: #980000;
           }
           .saitama-text-signs {
             display: flex;
@@ -738,42 +738,6 @@
     margin-top: 144px;
     img {
       width: 100%;
-    }
-  }
-  footer {
-    background-color: #0e1d28;
-    .inside-footer {
-      padding: 118px 167px 118px 194px;
-      display: flex;
-      justify-content: space-between;
-      img {
-        align-self: flex-start;
-      }
-      .menu-footer {
-        display: flex;
-        justify-content: space-between;
-        gap: 139.5px;
-        .footer-columns {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          font-family: "Lato";
-          font-style: normal;
-          font-weight: 700;
-          font-size: 18px;
-          line-height: 24px;
-          color: #ffffff;
-          a {
-            font-family: "Lato";
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 24px;
-            color: #ffffff;
-            text-decoration: none;
-          }
-        }
-      }
     }
   }
   @media (min-width: 956px) and (max-width: 1425px) {
