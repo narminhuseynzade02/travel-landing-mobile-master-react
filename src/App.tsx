@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './odigo-Logo (2).svg';
 import './App.css';
 
 function App() {

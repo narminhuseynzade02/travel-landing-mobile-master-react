@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: center;
+  .navigation {
+    width: 1078px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    .navlinks {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      a {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        text-decoration: none;
+        color: #ffffff;
+      }
+    }
+    div {
+      width: 490px;
+    }
+  }
+}
+@media (min-width: 320px) and (max-width: 550px) {
+  header .navigation .navlinks {
+    display: none;
+  }
+}
