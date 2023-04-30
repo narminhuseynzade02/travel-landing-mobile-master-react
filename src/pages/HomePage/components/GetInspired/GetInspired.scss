@@ -1,0 +1,134 @@
+.get-inspired-section {
+  width: 1264px;
+  margin-left: 88px;
+  margin-right: 88px;
+  margin-top: 136px;
+}
+.get-inspired-header {
+  width: 457px;
+  font-family: Lato;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #102746;
+  border-bottom: 2px solid #006dfe;
+  margin-top: 7px;
+}
+.get-inspired-view {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #006dfe;
+  margin-top: 14px;
+  img {
+    width: 33px;
+    height: 8px;
+    margin-top: 7px;
+  }
+}
+
+.get-inspired-pic {
+  display: flex;
+  justify-content: space-between;
+}
+.get-inspired-pics {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.prefecture-neighborhood-section {
+  margin-right: 84px;
+  margin-left: 85px;
+  margin-top: 131px;
+}
+
+.prefecture-text-img {
+  display: flex;
+  gap: 100px;
+  margin-top: 131px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  h1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  h2 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #102746;
+  }
+  h3 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #006dfe;
+  }
+}
+
+.neighborhood-text-img {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 97px;
+  margin-top: 90px;
+}
+.text-neighborhood {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h4 {
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #102746;
+}
+h5 {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #102746;
+}
+h6 {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #006dfe;
+}
+@media (min-width: 320px) and (max-width: 550px) {
+  .get-inspired-section {
+    width: auto;
+    margin-top: auto;
+  }
+  .get-inspired-header {
+    width: auto;
+  }
+  .get-inspired-pic {
+    gap: 10px;
+    flex-direction: column;
+  }
+  .get-inspired-pics {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
