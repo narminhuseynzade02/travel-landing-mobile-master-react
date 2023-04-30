@@ -1,0 +1,468 @@
+.header {
+    width: 369px;
+    margin-left: 85px;
+    margin-right: 986px;
+    margin-top: 152px;
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #102746;
+    border-bottom: 2px Solid #006dfe;}
+.cities-japan {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-cities {
+    display: flex;
+  }
+  .nagoya {
+    width: 392px;
+    margin-left: 81px;
+    margin-top: 54px;
+
+    .image-wrapper {
+      width: 386px;
+      margin-top: 54px;
+      margin-bottom: 45px;
+      position: relative;
+
+      .image-info {
+        bottom: 0px;
+        display: flex;
+        gap: 157px;
+        margin-bottom: 3px;
+        position: absolute;
+        background-color: rgba(21, 24, 36, 0.6);
+        .nagoya-text {
+          font-family: Lato;
+          padding-top: 16px;
+          padding-bottom: 15px;
+          margin-left: 25px;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+          text-decoration: none;
+          color: #ffffff;
+        }
+        .nagoya-text-signs {
+          display: flex;
+          gap: 14px;
+          p {
+            font-family: Lato;
+            display: flex;
+            padding-top: 16px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            text-decoration: none;
+            color: #ffffff;
+          }
+          img {
+            padding-bottom: 16px;
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+  .niigata {
+    width: 392px;
+    margin-left: 81px;
+    margin-top: 54px;
+
+    .image-wrapper-niigata {
+      width: 386px;
+      margin-top: 54px;
+      margin-bottom: 45px;
+      position: relative;
+
+      .image-info-niigata {
+        bottom: 0px;
+        display: flex;
+        gap: 157px;
+        margin-bottom: 3px;
+        position: absolute;
+        background-color: rgba(21, 24, 36, 0.6);
+        .niigata-text {
+          font-family: Lato;
+          padding-top: 16px;
+          padding-bottom: 15px;
+          margin-left: 25px;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+          text-decoration: none;
+          color: #ffffff;
+        }
+        .niigata-text-signs {
+          display: flex;
+          gap: 14px;
+          p {
+            font-family: Lato;
+            display: flex;
+            padding-top: 16px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            text-decoration: none;
+            color: #ffffff;
+          }
+          img {
+            padding-bottom: 16px;
+            margin-right: 21px;
+          }
+        }
+      }
+    }
+  }
+  .osaka {
+    width: 392px;
+    margin-left: 81px;
+    margin-top: 54px;
+
+    .image-wrapper-osaka {
+      width: 386px;
+      margin-top: 54px;
+      margin-bottom: 45px;
+      position: relative;
+
+      .image-info-osaka {
+        bottom: 0px;
+        display: flex;
+        gap: 157px;
+        margin-bottom: 3px;
+        position: absolute;
+        background-color: rgba(21, 24, 36, 0.6);
+        .osaka-text {
+          font-family: Lato;
+          padding-top: 16px;
+          padding-bottom: 15px;
+          margin-left: 25px;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+          text-decoration: none;
+          color: #ffffff;
+        }
+        .osaka-text-signs {
+          display: flex;
+          gap: 14px;
+          p {
+            font-family: Lato;
+            display: flex;
+            padding-top: 16px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            text-decoration: none;
+            color: #ffffff;
+          }
+          img {
+            padding-bottom: 16px;
+            margin-right: 26.9px;
+          }
+        }
+      }
+    }
+  }
+  .other-cities {
+    display: flex;
+  }
+  .saitama {
+    width: 392px;
+    margin-left: 81px;
+    margin-top: 54px;
+
+    .image-wrapper-saitama {
+      width: 386px;
+      margin-top: 54px;
+      margin-bottom: 45px;
+      position: relative;
+
+      .image-info-saitama {
+        bottom: 0px;
+        display: flex;
+        gap: 157px;
+        margin-bottom: 4px;
+        position: absolute;
+        background-color: rgba(21, 24, 36, 0.6);
+        .saitama-text {
+          font-family: Lato;
+          padding-top: 16px;
+          padding-bottom: 15px;
+          margin-left: 25px;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+          text-decoration: none;
+          color: #ffffff;
+        }
+        .saitama-text-signs {
+          display: flex;
+          gap: 14px;
+          p {
+            font-family: Lato;
+            display: flex;
+            padding-top: 16px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            text-decoration: none;
+            color: #ffffff;
+          }
+          img {
+            padding-bottom: 16px;
+            margin-right: 18px;
+          }
+        }
+      }
+    }
+  }
+  .ueno {
+    width: 392px;
+    margin-left: 81px;
+    margin-top: 54px;
+
+    .image-wrapper-ueno {
+      width: 386px;
+      margin-top: 54px;
+      margin-bottom: 45px;
+      position: relative;
+
+      .image-info-ueno {
+        bottom: 0px;
+        display: flex;
+        gap: 157px;
+        margin-bottom: 4px;
+        position: absolute;
+        background-color: rgba(21, 24, 36, 0.6);
+        .ueno-text {
+          font-family: Lato;
+          padding-top: 16px;
+          padding-bottom: 15px;
+          margin-left: 25px;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+          text-decoration: none;
+          color: #ffffff;
+        }
+        .ueno-text-signs {
+          display: flex;
+          gap: 14px;
+          p {
+            font-family: Lato;
+            display: flex;
+            padding-top: 16px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            text-decoration: none;
+            color: #ffffff;
+          }
+          img {
+            padding-bottom: 16px;
+            margin-right: 24px;
+          }
+        }
+      }
+    }
+  }
+  .shibuya {
+    width: 392px;
+    margin-left: 81px;
+    margin-top: 54px;
+
+    .image-wrapper-shibuya {
+      width: 386px;
+      margin-top: 54px;
+      margin-bottom: 45px;
+      position: relative;
+
+      .image-info-shibuya {
+        bottom: 0px;
+        display: flex;
+        gap: 157px;
+        margin-bottom: 4px;
+        position: absolute;
+        background-color: rgba(21, 24, 36, 0.6);
+        .shibuya-text {
+          font-family: Lato;
+          padding-top: 16px;
+          padding-bottom: 15px;
+          margin-left: 25px;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+          text-decoration: none;
+          color: #ffffff;
+        }
+        .shibuya-text-signs {
+          display: flex;
+          gap: 14px;
+          p {
+            font-family: Lato;
+            display: flex;
+            padding-top: 16px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            text-decoration: none;
+            color: #ffffff;
+          }
+          img {
+            padding-bottom: 16px;
+            margin-right: 19px;
+          }
+        }
+      }
+    }
+  }
+
+  text {
+    width: 391px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #102746;
+  }
+  div button {
+    width: 118px;
+    margin-top: 31px;
+    background-color: #006dfe;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    padding: 12px 19px;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+  }
+  @media (min-width: 320px) and (max-width: 550px) {
+  .cities-japan {
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 300px;
+    }
+    p img {
+      width: 15px;
+    }
+  }
+  .main-cities {
+    flex-direction: column;
+  }
+  .other-cities {
+    flex-direction: column;
+  }
+}
+.second-part .nagoya {
+  max-width: 303px;
+  margin-left: auto;
+  margin-right: auto;
+  .image-wrapper .image-info {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+}
+.second-part .niigata {
+  max-width: 303px;
+  margin-left: auto;
+  margin-right: auto;
+  .image-wrapper-niigata .image-info-niigata {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+}
+.second-part .osaka {
+  max-width: 303px;
+  margin-left: auto;
+  margin-right: auto;
+  .image-wrapper-osaka .image-info-osaka {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+}
+.second-part .saitama {
+  max-width: 303px;
+  margin-left: auto;
+  margin-right: auto;
+  .image-wrapper-saitama .image-info-saitama {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+}
+.second-part .ueno {
+  max-width: 303px;
+  margin-left: auto;
+  margin-right: auto;
+  .image-wrapper-ueno .image-info-ueno {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+}
+.second-part .shibuya {
+  max-width: 303px;
+  margin-left: auto;
+  margin-right: auto;
+  .image-wrapper-shibuya .image-info-shibuya {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+}
