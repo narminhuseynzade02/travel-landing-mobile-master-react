@@ -94,164 +94,7 @@
     }
   }
   .second-part {
-    .card-section {
-      max-width: 87.63%;
-      background-color: #ffffff;
-      box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: -226px;
-      .container {
-        width: 84.15%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 98px;
-        padding-bottom: 100px;
-        .card-header {
-          font-family: Lato;
-          font-size: 35px;
-          font-weight: 500;
-          line-height: 42px;
-          color: #102746;
-          width: 21.39%;
-          margin-bottom: 120px;
-        }
-        .card-boxes {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          height: 260px;
-          .card-one {
-            width: 317px;
-  
-            border-radius: 0px;
-            img {
-              width: 66px;
-  
-              border-radius: 0px;
-              margin-bottom: 37px;
-            }
-            div {
-              font-family: Lato;
-              font-size: 18px;
-              font-weight: 400;
-              line-height: 24px;
-              letter-spacing: 0px;
-              text-align: left;
-              margin-bottom: 26px;
-            }
-            text {
-              font-family: Lato;
-              font-size: 16px;
-              font-weight: 300;
-              line-height: 24px;
-              letter-spacing: 0px;
-              text-align: left;
-            }
-            p {
-              font-family: Lato;
-              font-size: 16px;
-              font-weight: 400;
-              line-height: 24px;
-              letter-spacing: 0px;
-              text-align: left;
-              color: #006dfe;
-              img {
-                width: 33px;
-  
-                border-radius: 0px;
-              }
-            }
-          }
-          .card-two {
-            width: 317px;
-  
-            border-radius: 0px;
-            img {
-              width: 65px;
-              left: 561px;
-              top: 996px;
-              border-radius: 0px;
-              margin-bottom: 37px;
-            }
-            div {
-              font-family: Lato;
-              font-size: 18px;
-              font-weight: 400;
-              line-height: 24px;
-              letter-spacing: 0px;
-              text-align: left;
-              margin-bottom: 26px;
-            }
-            text {
-              font-family: Lato;
-              font-size: 16px;
-              font-weight: 300;
-              line-height: 24px;
-              letter-spacing: 0px;
-              text-align: left;
-            }
-            p {
-              font-family: Lato;
-              font-size: 16px;
-              font-weight: 400;
-              line-height: 24px;
-              letter-spacing: 0px;
-              text-align: left;
-              color: #006dfe;
-              img {
-                width: 33px;
-  
-                border-radius: 0px;
-              }
-            }
-          }
-          .card-three {
-            width: 317px;
-  
-            border-radius: 0px;
-            img {
-              height: 58px;
-              width: 58px;
-              margin-bottom: 37px;
-              border-radius: 0px;
-            }
-            div {
-              font-family: Lato;
-              font-size: 18px;
-              font-weight: 400;
-              line-height: 24px;
-              letter-spacing: 0px;
-              text-align: left;
-              margin-bottom: 26px;
-            }
-            text {
-              font-family: Lato;
-              font-size: 16px;
-              font-weight: 300;
-              line-height: 24px;
-              letter-spacing: 0px;
-              text-align: left;
-            }
-            p {
-              font-family: Lato;
-              font-size: 16px;
-              font-weight: 400;
-              line-height: 24px;
-              letter-spacing: 0px;
-              text-align: left;
-              color: #006dfe;
-              img {
-                height: 8px;
-                width: 33px;
-  
-                border-radius: 0px;
-              }
-            }
-          }
-        }
-      }
-    }
+   
     .get-inspired-section {
       width: 1264px;
       margin-left: 88px;
@@ -572,7 +415,7 @@
             letter-spacing: 0px;
             text-align: left;
             text-decoration: none;
-            color: #980000;
+            color: #ffffff;
           }
           .saitama-text-signs {
             display: flex;
@@ -775,36 +618,7 @@
         font-family: Lato;
         font-size: 20px;
       }
-      .card-section .container{width: auto;};
-      .card-header{width: auto;};
-      .card-boxes{width: auto;};
-      .card-one{width: auto; 
-      img{width: auto;};
-       div{font-size: 14px;
-       line-height: 24px;
-      margin-bottom: 26px;};
-      p{font-size: 10px;
-      font-weight: 400;
-      line-height: 24px;}
-      };
-      .card-two{width: auto; 
-      img{width: auto;};
-       div{font-size: 14px;
-       line-height: 24px;
-      margin-bottom: 26px;};
-      p{font-size: 10px;
-      font-weight: 400;
-      line-height: 24px;}
-      }
-      .card-three{width: auto; 
-      img{width: auto;};
-       div{font-size: 14px;
-       line-height: 24px;
-      margin-bottom: 26px;};
-      p{font-size: 10px;
-      font-weight: 400;
-      line-height: 24px;}
-      };
+      
       .get-inspired-section{width: auto;
       margin-top: auto;};
       .get-inspired-header{width: auto;}
