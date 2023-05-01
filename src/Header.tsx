@@ -1,18 +1,19 @@
-import './Header.scss'
-import logo from './odigo-Logo (2).svg';
+import { Link } from "react-router-dom";
+import "./Header.scss";
+import logo from "./odigo-Logo (2).svg";
 
 export const Header = () => {
-    return (
-        <header>
-        <div className="navigation">
-          <img src= {logo} alt="" />
-          <div className="navlinks">
-            <a href="">Articles</a>
-            <a href="">Locations</a>
-            <a href="">Videos</a>
-            <a href="">Sign in</a>
-          </div>
+  return (
+    <header>
+      <div className="navigation">
+        <img src={logo} alt="" />
+        <div className="navlinks">
+          <Link to="/second">Articles</Link>
+          <Link to="/">Locations</Link>
+          <Link to="/">Videos</Link>
+          <Link to="signin">Sign in</Link>
         </div>
-      </header>
-    )
-}
+      </div>
+    </header>
+  );
+};
